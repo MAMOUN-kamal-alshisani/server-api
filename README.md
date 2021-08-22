@@ -10,9 +10,9 @@
 
 ##### Author : Ibrahim Khdairat 
 
-* [GitHub Repo Link]()
+* [GitHub Repo Link](https://github.com/MAMOUN-kamal-alshisani/server-api)
 
-* [Pull Request]()
+* [Pull Request](https://github.com/MAMOUN-kamal-alshisani/server-api/pull/1)
 
 * [Heroku Link]() 
 
