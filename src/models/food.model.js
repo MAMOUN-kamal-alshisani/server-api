@@ -1,4 +1,5 @@
-const foodModel = (sequelize,DataType)=>sequelize.define('food',{
+'use strict';
+const Food = (Sql,DataType)=>Sql.define('food',{
 foodName:{
 
 type:DataType.STRING,
@@ -8,6 +9,10 @@ recipes:{
 type:DataType.STRING,
 
 },
+customerId: {
+    type: DataType.INTEGER,
+    allowNull: false,
+},
 }); 
 
-module.exports =foodModel;
+module.exports =Food;

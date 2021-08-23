@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage --verbose",
-    "start": "node index.js",
-    "NODE_ENV":"test"
+    "start": "node index.js"
+    
   },
   "repository": {
     "type": "git",
