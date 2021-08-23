@@ -12,9 +12,9 @@
 
 * [GitHub Repo Link](https://github.com/MAMOUN-kamal-alshisani/server-api)
 
-* [Pull Request](https://github.com/MAMOUN-kamal-alshisani/server-api/pull/1)
+* [Pull Request](https://github.com/MAMOUN-kamal-alshisani/server-api/pull/2)
 
-* [Heroku Link]() 
+* [Heroku Link](https://basic-api-server123.herokuapp.com/) 
 
 
 ##### Setup
