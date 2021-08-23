@@ -8,14 +8,20 @@ const notFoundHandler =require('./error-handlers/404');
 const errorHandler =require('./error-handlers/500');
 const loggerMeddleware =require('./middleware/logger');
 const validator =require('./middleware/validator');
-const foodRoute=require('./routes/food');
-const clothesRoute=require('./routes/clothes');
 
+const customerRoute = require('./routes/customer');
+const foodRoute = require('./routes/food')
+const clothesRoute = require('./routes/clothes')
+
+
+app.get('/', (req, res) => {
+    res.status(200).send('welcome')
+})
+
+
+app.use(customerRoute);
 app.use(foodRoute);
 app.use(clothesRoute);
-app.use(loggerMeddleware);
-app.use(validator);
-
 
 
 // app.post('/person',(req,res)=>{
@@ -26,12 +32,6 @@ app.use(validator);
 // })
 
 
-app.get('/badreq',(req,res)=>{
-
-res.send('error')
-
-
-})
 
 app.use('*',notFoundHandler);
 app.use(errorHandler);
