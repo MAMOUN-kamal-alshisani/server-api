@@ -6,10 +6,6 @@
 ![](lab4.jpg)
 
 
-
-
-##### Author : Ibrahim Khdairat 
-
 * [GitHub Repo Link](https://github.com/MAMOUN-kamal-alshisani/server-api)
 
 * [Pull Request](https://github.com/MAMOUN-kamal-alshisani/server-api/pull/2)
